@@ -13,6 +13,13 @@ composer install
 ```bash
 php vendor/bin/phpunit --testdox
 ```
+## mise à jour phpUnit
+
+```bash
+composer require --dev phpunit/phpunit
+composer dump-autoload
+./vendor/bin/phpunit --version
+```
 
 ## Clef SSH
 
